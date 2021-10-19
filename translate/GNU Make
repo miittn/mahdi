@@ -1,7 +1,7 @@
 
 ابزار GNU Make
    GNU Make  ابزاری است  که نسل اجرایی و  عیر اجرایی دیگر فایلهای یک برنامه را از سورس فایلهای برنامه کنترل میکند.
-Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files. When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program.
+
 Make gets دانش بیلد کردن برنامه شما از  فایلی به نام makefile  است که فایلهای بدون سورس وچگونه محاسبه کردن ان از فایلهای دیگر را لیست میکند.وقتی شما یک برنامه مینویسید  بایستی یک makefileبرای آن بنویسید به صورتی که ممکن است برای بیلد کردن و نصب برنامه از make استفاده کنید   
 Capabilities of Make
 Make enables the end user to build and install your package without knowing the details of how that is done -- because these details are recorded in the makefile that you supply.
