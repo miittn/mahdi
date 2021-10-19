@@ -1,0 +1,183 @@
+Guide to Translating Web Pages on www.gnu.org
+
+Translating gnu.org with its many articles and keeping them updated is a complex task which requires careful organization. Translators are grouped into teams, one for each language, and each team normally has a coordinator. However, there are some languages for which no team has been formed yet, and sometimes a team lacks a coordinator.
+
+Team Coordinators use software tools to update pages efficiently for partial changes. One of these tools is a program called GNUnited Nations (GNUN) that makes it very easy to maintain and keep track of translations that need to be updated; it was developed ad hoc by our current GNU Translations Manager Yavor Doganov.
+
+The Translations Manager is the person in charge of the overall organization of teams and is generally involved in training new Team Coordinators.
+
+As a Team Member, you can contribute to translations without knowing anything about GNUN, but you can help at more levels if you know how to use it.
+Who can Help
+
+All teams are always looking for new volunteers. Basically, there is a task for everyone in the translation process: we need people with good language skills, as well as people with good technical skills or willing to learn some simple technical skills.
+
+    If you have a deep understanding of written English and a rich command of your native language, you can certainly engage in translation, or do proof-reading. Writing good English is not necessary.
+
+    If your understanding of English is not first class, or if you don't know English at all but have a good mastery of your mother tongue, you can help review other people's translations to make sure they read well and have a good style.
+
+    If you are a native English speaker, and you can read another language, even if not quickly and easily, you can still help improve translations in that language. Translators sometimes misunderstand English idioms and expressions and write translations that are misleading or even incorrect. These errors are obvious to the native English speaker—you can indicate possible errors and explain the intended meaning, and others can retranslate that part.
+
+    If you are inclined or willing to go for the more technical side of the translation process, you can help further; for example, by preparing translated texts for publication.
+
+How to Participate
+
+As a Team Member
+    Please read the General Guide for Translations below and then contact the relevant translation team. Each team has its own system of organizing the work. Thus, to join an existing team, you need to get detailed information from that team. The Team Coordinator will be able to guide you through their specific methods. If you don't get an answer in two weeks, write to the Translations Manager <web-translators@gnu.org>. 
+As an Occasional Contributor
+    If you just want to submit a new translation and are not interested in collaborating regularly, follow the General Guide for Translations below and then send your translation to the appropriate Team Coordinator if there is one, or to the Translations Manager <web-translators@gnu.org> if there is no team or coordinator for your language.
+As a Team Coordinator
+    If there is no team established for your language or a new Team Coordinator is needed, we will be grateful if you undertake that task. As a coordinator, you will need to follow both the General Guide for Translations and the more specific Guide for Team Coordinators. 
+
+General Guide for Translations
+
+Here are our specific goals for our translated pages.
+Clarity
+
+With few exceptions, the pages we translate are addressed to the general public. Before working on a page, please look at the original and ask yourself whether it is addressed to programmers or to the general public. Then aim your translation at the same audience.
+
+In pages meant for the general public, please avoid words that are not found in common dictionaries, except for our special terms such as “GNU” and “copyleft” (see the list below).
+Accuracy
+
+In order to produce a translation which is accurate and faithful to the original, you need to be familiar with the basic concepts of the GNU Project and the specific terminology used in gnu.org.
+
+Please study the philosophy of the free software movement, so that you can present it properly and clearly. The following articles will be particularly helpful:
+
+    What is Free Software?
+    Categories of Free and Nonfree Software
+    Words to Avoid
+    What's in a Name?
+    Open Source Misses the Point of Free Software
+
+These terms and files need special attention:
+
+    Copyleft. This is a term that can be difficult to translate in some languages. It is a pun on the word “Copyright” based on the two meanings of “right”: ethical and directional. You can read the article What is Copyleft? to learn more about it and see how it has been translated into other languages. You will see that in most cases it has not been translated at all, so if you can't find a good translation for it in your language, the only option may be to use the English word.
+
+    Free Software. Most languages have a word for free-as-in-freedom and another word for gratis (zero price). In gnu.org we generally use “free” only to refer to freedom, and we say “gratis” when we mean zero price. Thus, please translate “free” using the word that means free-as-in-freedom, not the one that refers to price.
+
+    However, in some old pages, such as the GNU Manifesto and the initial announcement, we did not yet make the distinction. In translating these pages, you may need to think carefully about the proper treatment of each occurrence of the word “free”. You might choose to leave the word in English, followed by the explanation of its meaning in that occurrence: either freedom, price, or ambiguously both.
+
+    However, even in these old pages, the word you normally use to translate “free” in “free software” should be the one that refers to freedom.
+
+    See the Translations of the Term “Free Software” in several languages.
+
+    Digital Restrictions Management (DRM). This is what we use in gnu.org to avoid the propaganda term “Digital Rights Management”. It means that digital techniques are used to impose restrictions on the user, and these restrictions apply not only to digital but also to physical objects.
+
+    However, there is a subtle ambiguity in the English term “Digital Restrictions Management”. It can be interpreted in two ways:
+        Digital Management of Restrictions.
+        Management of Digital Restrictions.
+
+    In many languages these require different wording. The correct meaning is the first one, so translations should make this clear. Likewise with “rights” instead of “restrictions”.
+
+    Should. In regard to an ethical issue, “should” means it would be wrong to do anything else. For instance, the page entitled “Why Software Should Be Free” explains why it is wrong to make software nonfree in the actual world we live in.
+
+    Therefore, please translate “should” using a verb form that implies a strong ethical obligation. Don't translate it in a way that means “it would be preferable for software to be free” or “in an ideal world, software would be free”. Those are not strong enough.
+
+    GNU's Not Unix. When translating “GNU's Not Unix”, please ensure that the translation remains recursive. If a recursive translation cannot be conceived, use the following format (this is an example for Swedish): “GNU's Not Unix ( GNU är inte Unix)”.
+
+    Exception: The page philosophy/words-to-avoid.html is an exception to our usual policies about which terminology to use, because it presents examples of what not to say. For instance, in general we shun the term “Digital Rights Management”. However, we cite that term in philosophy/words-to-avoid.html in order to advise others to shun it.
+
+    As a translator, it is best if you follow the English text. Where the English text says “Digital Rights Management”, translate that. Where the English text says “Digital Restrictions Management”, translate that.
+
+    Surveillance. This word has false-friends in Romance languages because of its Latin root. In English, it specifically means the close observation of a person or organization under suspicion of wrongdoing; this makes the surveillee unsafe. In some Romance languages on the other hand (for instance in French), the false-friend of “surveillance” is used more widely; it may describe the benevolent watch of a shepherd over his sheep or of a teacher over her students.
+
+    When translating “surveillance”, please make sure you don't use a word which could be interpreted as “benevolent watch”. If there is no specialized term, the word which means “spying” may be adequate in the context of proprietary software.
+
+For more info, see Interpreters Guide
+
+Before installing or before submitting your translation for installation in gnu.org:
+
+    Have your translation reviewed by as many members of your team as possible. Peer review is crucial for the quality of the translation process. Too many errors are just missed (especially if they are obvious) when the translator does a final review of her own translation. One common technique to performing such reviews is to send the translation to the team's mailing list: members comment on specific parts, quoting them appropriately. The result is better quality of the translation, since more people looked at it.
+    If there is no team established for your language, show your translations to friends who are not experts on free software or GNU, to see if they understand the translation clearly.
+
+Licensing of Translations
+
+A translation page should be licensed just like the original page. If the original page carries a Creative Commons license, use the same Creative Commons license. If the original page says it is in the public domain, the translation should say the same thing.
+
+For specific rules, see Distribution Terms in the GNU Web Translators Manual.
+What to Translate
+
+We accept contributions of translations of all articles in all languages, but you should first browse our Web Translation Priorities.
+
+Again, please coordinate with your language team before starting any work, to get clear instructions on how to proceed and to avoid duplicating efforts.
+Translators Manual
+
+You may also want to read the GNU Web Translators Manual if you wish to have a better understanding of how our translation system works. But please talk to the team first; most probably you will not be required to read it in order to start helping.
+Guide for Team Coordinators
+
+The following is an explanation of what a Team Coordinator does specifically. In addition to what has already been described, a Team Coordinator:
+
+    sees to it that all texts to be published are faithful to the original and respect the terminology used in our website. All translations submitted by team members or by occasional contributors are reviewed and approved by the Team Coordinator before they are published;
+
+    understands thoroughly how our translation system works, and knows how to use the tools that we have adopted. In the following section we explain briefly how it is done.
+
+Tools
+
+We use .po (Portable Object) files to process and maintain translations. A .po file contains the original text and its translation, divided in paragraphs. This is how we do it:
+
+    When a new article is published in our website, GNUN, the program we mentioned at the beginning of this page, generates a .pot file (.po template) from that article. The .pot file is renamed to .po to be translated. Once it is translated, the .po file is committed. Then GNUN checks it, and if there are no errors in the code, the translated HTML version of the original article is automatically published in the website.
+
+    Whenever there is a change in the original HTML article, the .pot and .po files are regenerated by GNUN to merge the changes, clearly showing the strings that have changed. Translators then update the translation of only those strings in the .po file. When the updated .po file is committed, the HTML version of the translation is automatically updated on the website.
+
+    .po files can be edited by using any .po file editor.
+
+    Note: Some team members or occasional contributors may find it difficult or inconvenient to translate using PO files. However, contributions submitted as plain text format should not be rejected. To encourage the use of PO files, coordinators can provide those contributors with a simple guide aimed at people with little computer skills.
+
+We have also implemented notification tools to keep translators informed of changes in the original pages. In any case, a Team Coordinator needs to subscribe to our www-commits mailing list to keep an eye on pages that are modified. You may also use “make report TEAM=LANG” if you have GNUN installed.
+Coordinators Manuals
+
+The following manuals explain in detail the translation process that we have briefly shown above. It is necessary that a coordinator reads and becomes well acquainted with them:
+
+    GNU Web Translators Manual
+    GNUnited Nations (GNUN) Manual
+    GNU Web Site Guidelines: For Volunteers
+    GNU Web Site Guidelines: HTML Style Sheet
+
+After you have read this entire page, if you intend to volunteer and be listed as the Team Coordinator for your language, please inform the Translations Manager <web-translators@gnu.org> of your decision. Start reading at least the first two manuals and ask the Translations Manager for assistance if you have any doubts.
+Translation Teams
+
+Volunteers to establish new teams are more than welcome and will be assisted during the learning process.
+
+In the following list, the language code is followed by the name of the language, and by the name of the Team Coordinator.
+
+    ar - Arabic (Fayçal Alami - New coordinator needed)
+    az - Azerbaijani (Igrar Huseynov - New coordinator needed)
+    bg - Bulgarian (Yavor Doganov - New coordinator needed)
+    bn - Bengali (Khandakar Mujahidul Islam - New coordinator needed)
+    ca - Catalan (Miquel Puigpelat - New coordinator needed)
+    cs - Czech (František Kučera)
+    da - Danish (Erik Gravgaard - New coordinator needed)
+    de - German (Joerg Kohne)
+    el - Greek (Georgios Zarkadas - New coordinator needed)
+    eo - Esperanto (Ludovic Courtès - New coordinator needed)
+    es - Spanish (Dora Scilipoti, Javier Fernández Retenaga)
+    fa - Farsi/Persian (Amin Bandali)
+    fi - Finnish (Ville - New coordinator needed)
+    fr - French (Denis Barbier, Thérèse Godefroy)
+    he - Hebrew (New coordinator needed)
+    hr - Croatian (Martina Bebek - New coordinator needed)
+    id - Indonesian (New coordinator needed)
+    it - Italian (Andrea Pescetti)
+    ja - Japanese (NIIBE Yutaka)
+    ko - Korean (Jongmin Yoon)
+    ku - Kurdish (New coordinator needed)
+    ml - Malayalam (Aiswarya Kaitheri Kandoth)
+    nb - Norwegian Bokmål ( Andreas Tolfsen - New coordinator needed)
+    nl - Dutch (Tom Uijldert, Justin van Steijn)
+    nn - Norwegian Nynorsk (Andreas Tolfsen - New coordinator needed)
+    pl - Polish (Jan Owoc)
+    pt-br - Brazilian Portuguese (Rafael Fontenelle)
+    ro - Romanian (Tiberiu C. Turbureanu - New coordinator needed)
+    ru - Russian (Anatoly A. Kazantsev, Pavel Kharitonov)
+    sk - Slovak (Dominik Smatana - New coordinator needed)
+    sq - Albanian (Besnik Bleta)
+    sr - Serbian (Strahinya Radich)
+    ta - Tamil (Sri Ramadoss - New coordinator needed)
+    th - Thai (New coordinator needed)
+    tl - Tagalog (New coordinator needed)
+    tr - Turkish ( T. E. Kalaycı)
+    uk - Ukrainian (Andriy Bandura)
+    zh-cn - Simplified Chinese ( Xie Wensheng)
+    zh-tw - Traditional Chinese ( Po-Yen Huang)
+    ?? - Not available? Then this line is reserved for you.
+
+Note: English (en) is a special case. The bulk of the site is written in English, which is the de-facto language of the GNU Project. We occasionally need to translate to English original documents written in other languages. It is best to notify the Team Coordinator of that language if you volunteer. If there is no team coordinator and you are willing to help with this, please contact <web-translators@gnu.org>. 
