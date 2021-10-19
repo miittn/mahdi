@@ -9,8 +9,8 @@ Make gets دانش بیلد کردن برنامه شما از  فایلی به �
 Make آخرین user را برای بیلد کردن و نصب پکیج شما بدون دانستن جزییات چگونه انجام شدن وارد میکند 
 
 make به صورت اتوماتیک براساس اسنکه کدام سورس فایلها تغییر یافته اند متوجه میشود کدام فایلهای آن نیاز به به روز رسانی دارند .make به صورت اتوماتیک تعیین میکند نظم مناسبی برای به روز رسانی فایل ها .برای نمونه یک فایل بدون سورس به دیگر فایل بدون سورس وابسته است 
-As a result, if you change a few source files and then run Make, it does not need to recompile all of your program. It updates only those non-source files that depend directly or indirectly on the source files that you changed.
-
+As a result, if you change a few source files and then run Make, it does not need to recompile all of your program. It updates only those non-source files that depend directly or indirectly on the source files that you changed
+به عنوان نتیجه اگر تعداد کمی سورس فایل را تغییر دهید و سپس make را اجرا کنید نیازی به کامپایل همهی برنامه های شما نیست.
 Make is not limited to any particular language. For each non-source file in the program, the makefile specifies the shell commands to compute it. These shell commands can run a compiler to produce an object file, the linker to produce an executable, ar to update a library, or TeX or Makeinfo to format documentation.
 Make is not limited to building a package. You can also use Make to control installing or deinstalling a package, generate tags tables for it, or anything else you want to do often enough to make it worth while writing down how to do it.
 Make Rules and Targets
