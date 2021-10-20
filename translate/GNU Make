@@ -80,7 +80,8 @@ help-make برای کمک به کار عمومی و گفتگو است
 
 
 درگیرشدن
-Development of Make, and GNU in general, is a volunteer effort, and you can contribute. For information, please read How to help GNU. If you'd like to get involved, it's a good idea to join the discussion mailing list (see above).
+
+توسعه make و GNU به طور کلی یک تاثیر داوظلبانه است و شما میتوانید مشارکت کنید .برای اظلاعات لطفا چگونه به GNU کمک کردن را بخوانید. اگر شما مایلید که درگیر شوید ایده ی خوبی است که در گفتگو ی لیست های پستی عضو شوید.(بالا را بخوانید)
 
 Test releases
 Trying the latest test release (when available) is always appreciated. Test releases of Make can be found at http://alpha.gnu.org/gnu/make/ (via HTTP) and ftp://alpha.gnu.org/gnu/make/ (via FTP).
