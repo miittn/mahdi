@@ -94,7 +94,8 @@ help-make برای کمک به کار عمومی و گفتگو است
 برای توسعه منابع و مسله یاب ها  و دیگر اطلاعات لطفا صفحه پروژه make در savannah.gnu.org. ببینید.
 
 ترچمه make 
-To translate Make's messages into other languages, please see the Translation Project page for Make. If you have a new translation of the message strings, or updates to the existing strings, please have the changes made in this repository. Only translations from this site will be incorporated into Make. For more information, see the Translation Project.
+
+برای ترجمه ی پیام های make در زبان های دیگر لطفا صفحه پروژه ترجمه برای  make را ببینید. اگر یک ترجمه جدید از رشته های پیام  دارید یا به رسته های فعلی به روز رسانی میشود لطفا تغییرات ساخته شده در این مخزن را داشته باشید. تنها ترجمه ها از این سایت در make ادغام خواهد شد. برای اطلاعات بیشتر پروژه ترجمه را ببینید. 
 Maintainer
 Make is currently being maintained by Paul Smith. Please use the mailing lists for contact.
 Licensin
