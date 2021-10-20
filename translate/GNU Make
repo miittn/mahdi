@@ -68,8 +68,10 @@ Make میتواند در سرور اصلی GNU ftp : http://ftp.gnu.org/gnu/make
 لیست های پستی 
 
  make لیست های پستی زیر را دارد:
-bug-make is used to discuss most aspects of Make, including development and enhancement requests, as well as bug reports.
-help-make is for general user help and discussion.
+
+bug-make استفاده میشود برای بحث روی بیشتر جنبه های make و شامل توسعه و افزایش درخواست ها همچنین گزارش باگ ها میشود
+
+help-make برای کمک به کار عمومی و گفتگو است
 Announcements about Make and most other GNU software are made on info-gnu (archive).
 
 Security reports that should not be made immediately public can be sent directly to the maintainer. If there is no response to an urgent issue, you can escalate to the general security mailing list for advice.
