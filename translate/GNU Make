@@ -49,7 +49,8 @@ GNUE Make همچنین ویژگی های ساده ای دارد که بسیار 
 
 فایل های Make و قرارداد
 
-We have developed conventions for how to write Makefiles, which all GNU packages ought to follow. It is a good idea to follow these conventions in your program even if you don't intend it to be GNU software, so that users will be able to build your package just like many other packages, and will not need to learn anything special before doing so.
+
+ما قرارداد های توسعه بافته ای  داریم برای چگونه نوشتن فایل های Make که همه ی  پکیج های GNU باید دنبال شوند. ایده ی خوبی است دنبال کردن این قرار داد ها در برنامه شما حتی اگر شما نمی خواهید ان نرم افزار GNU باشد بنابراین ان کاربرها قادر خواهند بود تا پکیج شما را بیلد کنند درست مثل بقیه پکیج های دیگر و احتیاچ نجواهد داشت تا هر چیزخاصی را قبل از انجام دادن بیاموزد. 
 
 These conventions are found in the chapter ``Makefile conventions'' (147 k characters) of the GNU Coding Standards (147 k characters).
 
