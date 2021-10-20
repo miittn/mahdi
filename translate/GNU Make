@@ -43,9 +43,12 @@ GNUE Make ویژگی های قدرتمند زیادی برای استفاده د
 
 GNUE Make همچنین ویژگی های ساده ای دارد که بسیار راحت هستند. برای مثال گزینه ی فایل -o میگوید '' تظاهر میکند که سورس فایل تعییر ندارد با وجود اینکه تعییر کرده است.این بشدت مفیده  وقتی شما یک ماکرو جدید به فایل سرتیتر اضافه میکنید. بیشتر ورژن های make فرض خواهند کرد که باید دوباره کامپایل کنند همه ی سورس فایل هایی که استفاده میکنند فایل سر تیتر را اما GNU Make به شما راهی میدهد برای جلو گیری از کامپایل دوباره  به عنوان نمونه جایی که شما میداهید تعییر شما به فایل هدر به آن نیاز ندارد.
 
-However, the most important difference between GNU Make and most versions of Make is that GNU Make is free software.
 
-Makefiles And Conventions
+اگرچه مهمترین تفاوت میان GNU Make و بیشتر ورژن های Make, GNU MAke ایست که نرم افزار متن باز است.
+
+
+فایل های Make و قرارداد
+
 We have developed conventions for how to write Makefiles, which all GNU packages ought to follow. It is a good idea to follow these conventions in your program even if you don't intend it to be GNU software, so that users will be able to build your package just like many other packages, and will not need to learn anything special before doing so.
 
 These conventions are found in the chapter ``Makefile conventions'' (147 k characters) of the GNU Coding Standards (147 k characters).
