@@ -90,8 +90,10 @@ help-make برای کمک به کار عمومی و گفتگو است
 پیدا شود.
 
 توسعه
-For development sources, issue trackers, and other information, please see the Make project page at savannah.gnu.org.
-Translating Make
+
+برای توسعه منابع و مسله یاب ها  و دیگر اطلاعات لطفا صفحه پروژه make در savannah.gnu.org. ببینید.
+
+ترچمه make 
 To translate Make's messages into other languages, please see the Translation Project page for Make. If you have a new translation of the message strings, or updates to the existing strings, please have the changes made in this repository. Only translations from this site will be incorporated into Make. For more information, see the Translation Project.
 Maintainer
 Make is currently being maintained by Paul Smith. Please use the mailing lists for contact.
