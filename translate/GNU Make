@@ -57,9 +57,11 @@ GNUE Make همچنین ویژگی های ساده ای دارد که بسیار 
 
 
 دانلود کردن Make
-Make can be found on the main GNU ftp server: http://ftp.gnu.org/gnu/make/ (via HTTP) and ftp://ftp.gnu.org/gnu/make/ (via FTP). It can also be found on the GNU mirrors; please use a mirror if possible.
 
-Documentation
+Make میتواند در سرور اصلی GNU ftp : http://ftp.gnu.org/gnu/make/ (via HTTP) و ftp://ftp.gnu.org/gnu/make/ (via FTP) پیدا شود. همچنین میتواند در GNU mirrors یافت شود.لطفا از mirror استفاده کنید اگر ممکن است.
+
+ 
+مستند سازی
 Documentation for Make is available online, as is documentation for most GNU software. You may also find more information about Make by running info make or man make, or by looking at /usr/share/doc/make/, /usr/local/doc/make/, or similar directories on your system. A brief summary is available by running make --help.
 
 Mailing lists
