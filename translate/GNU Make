@@ -18,7 +18,8 @@ make به زبان خاصی محدود نیست. برای هر فایل بدون
 make محدود به ساختن یک پکیج نیست.شما میتوانید از make برای کنترل نصب و حذف نصب یک پکیچ  و تولید جداول تگ ها یا هر چیز دیگری که شما میخواهید انجام دهید  اعلب کافیست برای اینکه ان را بدتر کنید  زمانی که مینویسد که  چگونه انجام شود استفاده کنید
 
 قانون ها و اهداف make
-A rule in the makefile tells Make how to execute a series of commands in order to build a target file from source files. It also specifies a list of dependencies of the target file. This list should include all files (whether source files or other targets) which are used as inputs to the commands in the rule.
+
+یک قانون در فایل make میگوید make چگونه یک سری از دستورات را برای build کردن یک فایل هدف از سورس فایل اجرا کند.همچنین  یک لیست از وابستگی های فایل هدف را مشخص میکند .این لیست باید همه ی فایل هایی(چه سورس فایل ها چه دیگر هدف ها) که به عنوان ورودی هایی برای کامند ها در قانون استفاده میشود را شامل شود.
 
 Here is what a simple rule looks like:
 
