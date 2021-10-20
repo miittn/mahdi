@@ -14,7 +14,8 @@ make به صورت اتوماتیک براساس اسنکه کدام سورس ف
 
 
 make به زبان خاصی محدود نیست. برای هر فایل بدون سورس در برنامه فایل make دستورات shell را برای محاسبه آن مشخص میکند. کامند های shell میتوانند برای ایجاد یک object file یک کامپایلر اجرا کنندو میتوانند پیوند دهنده برای تولید یک فایل قابل اجرا باشند  یا میتوانند یک کتابخانه را اپدیت کنند یا tex یا makeinfo کنند برای فرمت داکیومنت
-Make is not limited to building a package. You can also use Make to control installing or deinstalling a package, generate tags tables for it, or anything else you want to do often enough to make it worth while writing down how to do it.
+
+make محدود به ساختن یک پکیج نیست.شما میتوانید از make برای کنترل نصب و حذف نصب یک پکیچ  و تولید جداول تگ ها یا هر چیز دیگری که شما میخواهید انجام دهید  اعلب کافیست برای اینکه ان را بدتر کنید  زمانی که مینویسد که  چگونه انجام شود استفاده کنید
 Make Rules and Targets
 A rule in the makefile tells Make how to execute a series of commands in order to build a target file from source files. It also specifies a list of dependencies of the target file. This list should include all files (whether source files or other targets) which are used as inputs to the commands in the rule.
 
