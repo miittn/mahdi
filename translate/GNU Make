@@ -35,8 +35,10 @@ make محدود به ساختن یک پکیج نیست.شما میتوانید �
 
 make از فایل make استفاده میکند برای محاسبه اینکه کدام فایل ها باید به روز خریداری شوند و سپس 
 تعیین میکند کدام یک ار آنها نیاز به به روزرسانی دارند . اگر یک فایل هدف جدید تر از همه ی فایل های هدفی که به آن وابسته اند باشد و سپس اماده به روز شدن باشد و نیاز به تولید دوباره نداشته باشد . بقیه فایل های هدف نیاز به به روز رسانی دارند اما در ترتیب مناسب یعنی هر فایل هدفی باید دوباره تولید شود قبل از اینکهدر تولید ذوباره هدف های دیگر استفاده شود.
-Advantages of GNU Make
-GNU Make has many powerful features for use in makefiles, beyond what other Make versions have. It can also regenerate, use, and then delete intermediate files which need not be saved.
+
+مزیت های GNU Make
+
+GNUE Make ویژگی های قدرتمند زیادی برای استفاده در فایل های make دارد فراتر از چیزی که بقیه ورژن های make دارند. همچنین میتواند  فایل های متوسطی که نیاز به ذخیره ندارند را  بازسازی استفاده و سپس حذف کند.
 
 GNU Make also has a few simple features that are very convenient. For example, the -o file option which says ``pretend that source file file has not changed, even though it has changed.'' This is extremely useful when you add a new macro to a header file. Most versions of Make will assume they must therefore recompile all the source files that use the header file; but GNU Make gives you a way to avoid the recompilation, in the case where you know your change to the header file does not require it.
 
