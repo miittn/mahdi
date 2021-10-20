@@ -40,7 +40,8 @@ make از فایل make استفاده میکند برای محاسبه اینک
 
 GNUE Make ویژگی های قدرتمند زیادی برای استفاده در فایل های make دارد فراتر از چیزی که بقیه ورژن های make دارند. همچنین میتواند  فایل های متوسطی که نیاز به ذخیره ندارند را  بازسازی استفاده و سپس حذف کند.
 
-GNU Make also has a few simple features that are very convenient. For example, the -o file option which says ``pretend that source file file has not changed, even though it has changed.'' This is extremely useful when you add a new macro to a header file. Most versions of Make will assume they must therefore recompile all the source files that use the header file; but GNU Make gives you a way to avoid the recompilation, in the case where you know your change to the header file does not require it.
+
+GNUE Make همچنین ویژگی های ساده ای دارد که بسیار راحت هستند. برای مثال گزینه ی فایل -o میگوید '' تظاهر میکند که سورس فایل تعییر ندارد با وجود اینکه تعییر کرده است.این بشدت مفیده  وقتی شما یک ماکرو جدید به فایل سرتیتر اضافه میکنید. بیشتر ورژن های make فرض خواهند کرد که باید دوباره کامپایل کنند همه ی سورس فایل هایی که استفاده میکنند فایل سر تیتر را اما GNU Make به شما راهی میدهد برای جلو گیری از کامپایل دوباره  به عنوان نمونه جایی که شما میداهید تعییر شما به فایل هدر به آن نیاز ندارد.
 
 However, the most important difference between GNU Make and most versions of Make is that GNU Make is free software.
 
