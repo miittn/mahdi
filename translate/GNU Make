@@ -75,9 +75,11 @@ help-make برای کمک به کار عمومی و گفتگو است
 
 اعلامیه درباره ی make و بیشتر نرم افزار GNU هایی که ساخته میشوند در info-gnu.(آرشیو)
 
-Security reports that should not be made immediately public can be sent directly to the maintainer. If there is no response to an urgent issue, you can escalate to the general security mailing list for advice.
 
-Getting involved
+گزارش های امنیتی که نباید فورا عمومی ساخته بشوند میتوانند مستقیما به نگهدارنده فرستاده شوند.
+
+
+درگیرشدن
 Development of Make, and GNU in general, is a volunteer effort, and you can contribute. For information, please read How to help GNU. If you'd like to get involved, it's a good idea to join the discussion mailing list (see above).
 
 Test releases
