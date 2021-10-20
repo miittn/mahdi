@@ -102,4 +102,6 @@ help-make برای کمک به کار عمومی و گفتگو است
 make در حال حاضر بوسیله پاول اسمیت نگهداری شده است. لطفا از لیست های پستی برای ارتباط استفاده کنید.
 
 مجوز
-Make is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+
+make نرم افزار آزاد است . شما میتوانید دوباره ان را توزیع کنید ویا تغییر بدهید تحت شرایط لایسنس عمومی GNU که منتشر شده بوسیله ی بنیاد نرم افزار آزاد یا نسخه 3 لایسنس یا به دلخواه شما هر نسخه ی بعدی 
