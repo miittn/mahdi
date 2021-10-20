@@ -96,7 +96,10 @@ help-make برای کمک به کار عمومی و گفتگو است
 ترچمه make 
 
 برای ترجمه ی پیام های make در زبان های دیگر لطفا صفحه پروژه ترجمه برای  make را ببینید. اگر یک ترجمه جدید از رشته های پیام  دارید یا به رسته های فعلی به روز رسانی میشود لطفا تغییرات ساخته شده در این مخزن را داشته باشید. تنها ترجمه ها از این سایت در make ادغام خواهد شد. برای اطلاعات بیشتر پروژه ترجمه را ببینید. 
-Maintainer
-Make is currently being maintained by Paul Smith. Please use the mailing lists for contact.
-Licensin
+
+نگه دارنده 
+
+make در حال حاضر بوسیله پاول اسمیت نگهداری شده است. لطفا از لیست های پستی برای ارتباط استفاده کنید.
+
+مجوز
 Make is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
