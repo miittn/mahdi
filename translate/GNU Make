@@ -21,12 +21,14 @@ make محدود به ساختن یک پکیج نیست.شما میتوانید �
 
 یک قانون در فایل make میگوید make چگونه یک سری از دستورات را برای build کردن یک فایل هدف از سورس فایل اجرا کند.همچنین  یک لیست از وابستگی های فایل هدف را مشخص میکند .این لیست باید همه ی فایل هایی(چه سورس فایل ها چه دیگر هدف ها) که به عنوان ورودی هایی برای کامند ها در قانون استفاده میشود را شامل شود.
 
-Here is what a simple rule looks like:
+
 اینجا یک قانون ساده هست شبیه:
 
-target:   dependencies ...
-          commands
+
+          هدف:وابستگی ها ...
+          دستورات
           ...
+          
 When you run Make, you can specify particular targets to update; otherwise, Make updates the first target listed in the makefile. Of course, any other target files needed as input for generating these targets must be updated first.
 
 Make uses the makefile to figure out which target files ought to be brought up to date, and then determines which of them actually need to be updated. If a target file is newer than all of its dependencies, then it is already up to date, and it does not need to be regenerated. The other target files do need to be updated, but in the right order: each target file must be regenerated before it is used in regenerating other targets.
